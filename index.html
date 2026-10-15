@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="An independent homepage redesign concept for Squires Estates by DCE Studio." />
+  <title>Squires Estates — Independent Design Concept</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="concept-banner">Independent redesign concept by DCE Studio · Not commissioned by Squires Estates</div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Squires Estates concept home">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      <span class="brand-name">SQUIRES <span>ESTATES</span><small>PROPERTY, CONSIDERED.</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#properties">Properties</a><a href="#services">Our services</a><a href="#about">About us</a><a href="#contact">Contact</a>
+      <a class="nav-cta" href="#contact">Book a valuation <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Independent property specialists</p>
+        <h1>Find a place<br>to <em>belong.</em></h1>
+        <p class="hero-intro">Thoughtful advice, local knowledge and a more personal approach to buying, selling and letting property.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#properties">Explore properties <span>↗</span></a><a class="text-link" href="#services">Discover our services <span>→</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Good moves start with good advice.</span></div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1500&q=85" alt="Bright contemporary home with warm natural finishes" />
+        <div class="image-caption"><span class="caption-label">A considered approach to property</span><span class="caption-number">01 / 03</span></div>
+        <div class="hero-badge"><span class="badge-icon">⌂</span><span>Local insight.<br><strong>Personal service.</strong></span></div>
+      </div>
+      <div class="hero-side-label">PROPERTY · PEOPLE · PLACE</div>
+    </section>
+
+    <section class="search-strip" aria-label="Property search concept">
+      <div class="search-heading"><span class="search-icon">⌕</span><div><strong>Find your next move</strong><small>Start with what matters to you.</small></div></div>
+      <form class="property-search" id="property-search">
+        <label>I'm looking to<select id="search-type"><option value="buy">Buy a property</option><option value="rent">Rent a property</option><option value="sell">Sell my property</option></select></label>
+        <label>Preferred area<input id="search-area" type="text" placeholder="Town, postcode or area" /></label>
+        <label>Property type<select id="search-property"><option>Any property</option><option>House</option><option>Apartment</option><option>Detached</option><option>Terraced</option></select></label>
+        <button class="button button-green" type="submit">Search <span>→</span></button>
+      </form>
+      <p class="search-feedback" id="search-feedback" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="section properties-section" id="properties">
+      <div class="section-top"><div><p class="eyebrow">A place to start</p><h2>Homes with <em>character.</em></h2></div><a class="text-link" href="#contact">Discuss your search <span>→</span></a></div>
+      <p class="section-intro">A small selection of sample property cards to demonstrate the proposed browsing experience. These are illustrative listings, not live Squires Estates properties.</p>
+      <div class="property-grid">
+        <article class="property-card"><div class="property-image"><img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=900&q=80" alt="Contemporary family home with landscaped garden" loading="lazy"><span class="property-tag">For sale · Sample</span><button class="save-button" aria-label="Save sample property" aria-pressed="false">♡</button></div><div class="property-details"><div class="property-meta"><span>3 bedrooms</span><span>2 bathrooms</span><span>1,420 sq ft</span></div><h3>Bright family home</h3><p class="property-location">North London · Illustrative location</p><div class="property-bottom"><strong>£725,000 <small>illustrative</small></strong><a href="#contact" aria-label="Enquire about Bright family home">↗</a></div></div></article>
+        <article class="property-card"><div class="property-image"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80" alt="Elegant living room with natural light and neutral finishes" loading="lazy"><span class="property-tag">To let · Sample</span><button class="save-button" aria-label="Save sample property" aria-pressed="false">♡</button></div><div class="property-details"><div class="property-meta"><span>2 bedrooms</span><span>1 bathroom</span><span>Furnished</span></div><h3>Calm, light-filled apartment</h3><p class="property-location">North London · Illustrative location</p><div class="property-bottom"><strong>£2,100 <small>per month · illustrative</small></strong><a href="#contact" aria-label="Enquire about Calm, light-filled apartment">↗</a></div></div></article>
+        <article class="property-card"><div class="property-image"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80" alt="Classic modern home exterior surrounded by greenery" loading="lazy"><span class="property-tag">For sale · Sample</span><button class="save-button" aria-label="Save sample property" aria-pressed="false">♡</button></div><div class="property-details"><div class="property-meta"><span>4 bedrooms</span><span>3 bathrooms</span><span>Garden</span></div><h3>A little room to grow</h3><p class="property-location">North London · Illustrative location</p><div class="property-bottom"><strong>£895,000 <small>illustrative</small></strong><a href="#contact" aria-label="Enquire about A little room to grow">↗</a></div></div></article>
+      </div>
+      <div class="concept-note">Design prototype only: sample properties, locations and prices are fictional and must be replaced with verified information before publication.</div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="services-image"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85" alt="Carefully styled contemporary home interior" loading="lazy"><div class="services-image-label">Property is personal. Your service should be too.</div></div>
+      <div class="services-copy"><p class="eyebrow">Here when it matters</p><h2>More than a move.<br><em>A relationship.</em></h2><p class="services-intro">Whether you're finding a home, moving on or managing a property, the right guidance can make the process feel simpler.</p>
+        <a class="service-row" href="#contact"><span class="service-number">01</span><span><strong>Buying & selling</strong><small>Clear guidance from first conversation to completion.</small></span><b>↗</b></a>
+        <a class="service-row" href="#contact"><span class="service-number">02</span><span><strong>Lettings</strong><small>Practical support for landlords and tenants.</small></span><b>↗</b></a>
+        <a class="service-row" href="#contact"><span class="service-number">03</span><span><strong>Property management</strong><small>Careful, responsive support for your investment.</small></span><b>↗</b></a>
+        <a class="service-row" href="#contact"><span class="service-number">04</span><span><strong>Property valuations</strong><small>A considered conversation about your next step.</small></span><b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="about-section" id="about"><div class="about-mark">S</div><div class="about-copy"><p class="eyebrow">A more personal property experience</p><h2>Good property advice<br>starts with <em>listening.</em></h2><p>This concept gives the brand more room to breathe: clearer navigation, a stronger editorial hierarchy and more visible paths for people who want to buy, sell or let. The final design should be shaped around Squires Estates' actual brand, team and customer needs.</p><a class="text-link" href="#contact">Let's talk about your next move <span>→</span></a></div><div class="about-stat"><strong>01</strong><span>One clear goal:<br>make every next step easier.</span></div></section>
+
+    <section class="contact-section" id="contact"><div class="contact-copy"><p class="eyebrow">Start a conversation</p><h2>Your next move<br>starts <em>here.</em></h2><p>Tell us what you're planning. We'll help you understand the options and find a sensible next step.</p></div><form class="contact-form" id="contact-form"><div class="form-row"><label for="name">Your name<input id="name" name="name" placeholder="Name" required></label><label for="email">Email address<input id="email" name="email" type="email" placeholder="you@example.com" required></label></div><label for="interest">I'm interested in<select id="interest" name="interest"><option>Buying a property</option><option>Selling a property</option><option>Lettings</option><option>Property management</option><option>A valuation</option></select></label><label for="message">A little about your plans<textarea id="message" name="message" rows="3" placeholder="How can we help?"></textarea></label><button class="button button-dark" type="submit">Prepare enquiry <span>→</span></button><p class="form-feedback" id="form-feedback" role="status" aria-live="polite">Prototype form only — no information is sent or stored.</p></form></section>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="#top"><span class="brand-mark">S</span><span class="brand-name">SQUIRES <span>ESTATES</span><small>PROPERTY, CONSIDERED.</small></span></a><p>Independent design concept by DCE Studio. Not affiliated with or commissioned by Squires Estates.</p><a href="#top" class="back-top">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
